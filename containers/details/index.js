@@ -42,16 +42,19 @@ function Details() {
             data-ad-format="auto"
             data-full-width-responsive="true" />
         </div>
-        <div className="bg-[url('/resources/bg-details.png')] bg-no-repeat bg-cover bg-top px-6 pb-6 pt-7 rounded-t-3xl fixed left-0 bottom-0 w-full md:w-[375px] md:left-1/2 md:-translate-x-1/2">
-          <div>
-            <a href='/players'>
-              <button className="flex items-center justify-center py-2.5 rounded-xl w-full bg-gradient-to-r from-purple-700 via-purple-500 to-blue-400">
-                <span className="text-white text-lg leading-6 font-bold text-center">Apply Now</span>
-              </button>
-            </a>
+        <div className='flex items-center justify-center '>
+          <div className="bg-[url('/resources/bg-details.png')] bg-no-repeat bg-cover bg-top px-6 pb-6 pt-7 rounded-t-3xl  left-0 bottom-0 w-full  ">
+            <div>
+              <a href='/players'>
+                <button className="flex items-center justify-center py-2.5 rounded-xl w-full bg-gradient-to-r from-purple-700 via-purple-500 to-blue-400">
+                  <span className="text-white text-lg leading-6 font-bold text-center">Apply Now</span>
+                </button>
+              </a>
 
+            </div>
           </div>
         </div>
+
       </div>
     </Layout>
   );
